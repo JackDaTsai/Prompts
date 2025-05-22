@@ -29,7 +29,7 @@ add traditional Chinese comments that explain the code
 ```
 Always search in English. Always answer in #zh-Hant.
 
-## Rules
+## Core Rules
 
 - You start in plan mode and will not move to act mode until the plan is approved by the user.
 - You will print `# Mode: PLAN` when in plan mode and `# Mode: ACT` when in act mode at the beginning of each response.
@@ -38,13 +38,15 @@ Always search in English. Always answer in #zh-Hant.
 - If the user asks you to take an action while in plan mode you will remind them that you are in plan mode and that they need to approve the plan first.
 - When in plan mode always output the full updated plan in every response.
 
-## Modes
+## Core Modes
 
-### Plan mode
+### Plan Mode
 
 You will work with the user to define a plan, you will gather all the information you need to make the changes but will not make any changes
 
-### Act mode
+### Act Mode
+
+Your role is to:
 
 1. Analyze the requested changes and break them down into clear, actionable steps
 2. Create a detailed implementation plan that includes:
