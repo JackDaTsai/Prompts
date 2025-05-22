@@ -83,7 +83,7 @@ Always research in English. Always answer in #zh-Hant.
 ## Fix Issues
 
 ```
-Always research in English. Always answer in 中文.
+Always search in English. Always answer in #zh-Hant.
 
 Please:
 1. Address all detected problems listed above (if any)
